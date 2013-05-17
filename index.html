@@ -4,11 +4,11 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Keepbitcoinfree.github.io : " />
+    <meta name="description" content="Keep Bitcoin Free" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Keepbitcoinfree.github.io</title>
+    <title>Keep Bitcoin Free!</title>
   </head>
 
   <body>
@@ -16,10 +16,10 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="https://github.com/keepbitcoinfree">View on GitHub</a>
+          <a id="forkme_banner" href="https://github.com/keepbitcoinfree/keepbitcoinfree.github.io">View on GitHub</a>
 
-          <h1 id="project_title">Keepbitcoinfree.github.io</h1>
-          <h2 id="project_tagline"></h2>
+          <h1 id="project_title">Keep Bitcoin Free!</h1>
+          <h2 id="project_tagline">Working together to keep Bitcoin decentralized.</h2>
 
         </header>
     </div>
@@ -27,43 +27,114 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<iframe width="640" height="360" src="http://www.youtube.com/embed/cZp7UGgBR0I" frameborder="0" allowfullscreen></iframe>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<h2>About</h2>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<p>Keep Bitcoin Free is a new effort to promote and develop core technologies to allow Bitcoin to grow and develop while maintaining the decentralization that makes Bitcoin unlike any currency before it.</p>
 
-<h3>Designer Templates</h3>
+<p>Here are the two big issues Bitcoin faces that we can solve with
+technology, and the technologies we want to develop:</p>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<h2>Scalability and Decentralization</h2>
 
-<h3>Rather Drive Stick?</h3>
+<div style="width:20em;height:20em">
+    <object height="100%" width="100%" 
+            data="images/decentralized-bitcoin.svg" type="image/svg+xml">
+    </object>
+</div>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>This is what Bitcoin looks like right now: tens of thousands of equal
+participants, all collaborating together to maintain a truly decentralized
+currency. When Bitcoin works well no one person, or even a small group of
+people, control the Bitcoin system. But if we make it only possible to
+participate in the Bitcoin network with expensive data-centers that are not
+anonymous, we'll end up with a network that looks more like this:</p>
 
-<h3>Authors and Contributors</h3>
+<div style="width:20em;height:20em">
+    <object height="100%" width="100%" 
+            data="images/centralized-bitcoin.svg" type="image/svg+xml">
+    </object>
+</div>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>The blocksize is a tradeoff, but we don't have to sacrifice
+decentralization and the security of your Bitcoin savings. We can keep the
+load on the core network low enough so everyone can participate, and
+participate anonymously if they so choose with technology:</p>
 
-<h3>Support or Contact</h3>
+<ul>
+    <li>Payment channels - Multiple tiny payments are efficiently collapsed into one.</li>
+    <li>Off-chain transactions - Small payments can be routed through payment processors rather than clogging up the blockchain.</li>
+</ul>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+<h2>Privacy</h2>
 
-    
+<div style="width:40em;height:15em">
+    <object height="100%" width="100%" 
+            data="images/tx.svg" type="image/svg+xml">
+    </object>
+</div>
+
+<p>Bitcoins by themselves don't have names attached, but every transaction
+made on the blockchain is still completely public. As shown above, you can
+use that information to figure out where coins came from, commonly known as
+"taint" analysis, but eventually the analysis is usually obscured into a
+muddled grey. Usually.</p>
+
+<p>However if you accidentally reveal any of your addresses, perhaps due to a
+virus, or because you relied on a third-party to access the blockchain,
+every coin you've spent can be traced back to you:</p>
+
+<div style="width:40em;height:15em">
+    <object height="100%" width="100%" 
+            data="images/tx-revealed.svg" type="image/svg+xml">
+    </object>
+</div>
+
+<ul>
+    <li>Trust-free mixing - multiple users can author a single transaction, making determining the source extremely difficult.</li>
+    <li>Off-chain transactions - Chaum token cryptography allows for provably anonymous payments - not even the payment processor can know who you paid.</li>
+</ul>
+
+<h3>Who we are</h3>
+
+<a href="mailto:pete@petertodd.org">Peter Todd</a> created Keep Bitcoin Free
+as part of his project to create a video explaining the blocksize problem.
+Financial support for that project has come from individual Bitcoin users,
+including John Dillon and others.
+
+
+<h3>How can I help?</h3>
+
+<p>Subscribe to the <a href="http://lists.keepbitcoinfree.org/cgi-bin/mailman/listinfo/keepbitcoinfree-announce">mailing list</a> to hear more, and <a href="mailto:pete@petertodd.org">let us know</a> where you want to see the project go.</p>
+
+<p>Donations are accepted:</p>
+
+<pre>
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Donations to the Keep Bitcoin Free project are accepted at Peter Todd's
+donation address:
+
+1FCYd7j4CThTMzts78rh6iQJLBRGPW9fWv
+-----BEGIN PGP SIGNATURE-----
+
+iQEcBAEBCAAGBQJRlePvAAoJEH+rEUJn5PoEBeoIAKiqyP+V9mCJXzzLxVY1MzJ6
+Lvcx9qRvFVZ/r0F1ph3SwkcCBPvwV7nD0Ca7Dr5eat/SDo0u1i6NdznKcY87zADk
+RqhT0JvhNCNSg3uKfqiYlXS6IJNZ4yGSDxJfAaATH9irw0fLHfPXX1rxqp529I9g
+bEVi1PBnZx00UHUFAEbVP6uJqjICD8pGwz8K/l2mgGb/1Iw8p3HKxXEogstOILGO
+dmX60VzPptm2HwcQ9JLSjgsNv2f6KRZoZwr6eXlbGteNgiXRpV4Lo2V14hBWqXTs
+gKDFsZud93Osqj+A3XIr4qj5GtNFqDUXsVbAmmjNGzs4oyzt7YXneGObRsPm4tA=
+=EoMU
+-----END PGP SIGNATURE-----
+</pre>
+
+<p>But this isn't a foundation - we'd rather you donate your time by making our
+goals happen. If you can program, write software, if you can do web design, we
+could use help, if you can write, talk about the issues.</p>
 
   </body>
 </html>
